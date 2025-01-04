@@ -56,16 +56,17 @@ it is build in top of NumPy and integrates well with python libraries in python'
 # ---------------------------------------------------------------------------------
 # 3. Data Exploration
 # Pandas offers various methods to quickly explore and summarize data.
-# import pandas as pd
-# data =pd.DataFrame(
-#     {
-#         'Names' :['sumedh','sachin','swapnil','snehal','naitik','vikki','ashwajit','rohit','kunal','achal'],
-#         'Ages'  :[38,36,34,34,30,30,26, 25, 24, 23],
-#         'Salary':[20000,22000,18000,75000,30000,None,40000,25000,50000,23000]
-#     }
-# )
-# # print(data)
-# # print(data.head())# first 5
-# # print(data.tail(3))# last 3
-# # print(data.info())## Get information about the DataFrame
-# print(data.describe())## Get summary statistics
+import pandas as pd
+data =pd.DataFrame(
+    {
+        'Names' :['sumedh','sachin','swapnil','snehal','naitik','vikki','ashwajit','rohit','kunal','achal'],
+        'Ages'  :[38,36,34,34,30,30,26, 25, 24, 23],
+        'Salary':[20000,22000,18000,75000,30000,None,40000,25000,50000,23000]
+    }
+)
+# print(data)
+# print(data.head())# first 5
+# print(data.tail(3))# last 3
+# print(data.info())## Get information about the DataFrame
+print(data.describe())## Get summary statistics
+
